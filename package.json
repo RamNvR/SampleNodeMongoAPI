@@ -1,0 +1,37 @@
+{
+  "name": "mongo-boilerplate",
+  "version": "0.1.0",
+  "description": "node-mongo boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RamNvR/NodeMongoAPI.git"
+  },
+  "keywords": [
+    "node",
+    "mongo",
+    "node-mongo",
+    "mongodb",
+    "node-mongodb",
+    "nodejs"
+  ],
+  "author": "vishnu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RamNvR/NodeMongoAPI/issues"
+  },
+  "homepage": "https://github.com/RamNvR/NodeMongoAPI#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "mongodb": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
